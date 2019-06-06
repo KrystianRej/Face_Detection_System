@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="830a4153-f0c7-42ac-8e29-69bd9fdaf3c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/application/LoaderAndTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/SampleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/opencv-341.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_bio.sql" beforeDir="false" afterPath="$PROJECT_DIR$/face_bio.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/0-test_face_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/0-test_face_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/0-test_face_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/0-test_face_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocr_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv-341.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appLayout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/ColoredObjectTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/FaceDetectionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/FaceDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/FaceDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/FaceRecognizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/MotionDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/OCR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/SquareDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_eye.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_eye.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_eye_tree_eyeglasses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_frontalface_alt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_frontalface_alt2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_frontalface_alt2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_frontalface_default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_fullbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_fullbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_lefteye_2splits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_lefteye_2splits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_lowerbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_lowerbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_profileface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_profileface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_righteye_2splits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_righteye_2splits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/haar/haarcascade_upperbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/haar/haarcascade_upperbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/face-head-logos-design-003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fullbody.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fullbody.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gesture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/motion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recognition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sc.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user-male-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/ColoredObjectTracker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/FaceDetectionController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/FaceDetectionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/FaceDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/FaceDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/FaceRecognizer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/FaceRecognizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/MotionDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/OCR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/Sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/Sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/SampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/SampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/SquareDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_eye.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_eye.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_eye_tree_eyeglasses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_frontalface_alt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_frontalface_alt2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_frontalface_alt2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_frontalface_default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_fullbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_fullbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_lefteye_2splits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_lefteye_2splits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_lowerbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_lowerbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_profileface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_profileface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_righteye_2splits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_righteye_2splits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_upperbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/haar/haarcascade_upperbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/face-head-logos-design-003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fullbody.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fullbody.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gesture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/motion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recognition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/smile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user-male-icon.png" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/SampleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/LoaderAndTrainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/FaceDetector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="46" column="81" lean-forward="true" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.fxbuild">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/face_bio.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/FaceBio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/application.plantuml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/styles.css" />
+        <option value="$PROJECT_DIR$/src/application/LoeaderAndTrainer.java" />
+        <option value="$PROJECT_DIR$/src/application/application.css" />
+        <option value="$PROJECT_DIR$/src/application/Main.java" />
+        <option value="$PROJECT_DIR$/src/application/FaceBio.java" />
+        <option value="$PROJECT_DIR$/src/application/application.plantuml" />
+        <option value="$PROJECT_DIR$/src/application/TestForLBPHAlgorytm.java" />
+        <option value="$PROJECT_DIR$/src/application/SampleController.java" />
+        <option value="$PROJECT_DIR$/src/application/LoaderAndTrainer.java" />
+        <option value="$PROJECT_DIR$/src/application/FaceDetector.java" />
+        <option value="$PROJECT_DIR$/face_bio.sql" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1866" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Face_Detection_System_KR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Face_Recognition_System_KR (2)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Face_Detection_System_KR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Face_Recognition_System_KR (2)" type="462c0819:PsiDirectoryNode" />
+              <item name="faces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Face_Detection_System_KR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Face_Recognition_System_KR (2)" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Face_Detection_System_KR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Face_Recognition_System_KR (2)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Face_Detection_System_KR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Face_Recognition_System_KR (2)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547072356167" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Human_Identification_System" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="TestForLBPHAlgorytm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.TestForLBPHAlgorytm" />
+      <module name="Face_Recognition_System_KR (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Face_Recognition_System_KR (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="application.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestForLBPHAlgorytm" />
+      <item itemvalue="Spring Boot.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="Application.TestForLBPHAlgorytm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="830a4153-f0c7-42ac-8e29-69bd9fdaf3c4" name="Default Changelist" comment="" />
+      <created>1545954057385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545954057385</updated>
+      <workItem from="1545954059204" duration="14000" />
+      <workItem from="1545954098688" duration="277000" />
+      <workItem from="1545954384185" duration="5027000" />
+      <workItem from="1545961301398" duration="1098000" />
+      <workItem from="1546001822136" duration="1928000" />
+      <workItem from="1546087377980" duration="3619000" />
+      <workItem from="1546105019012" duration="7434000" />
+      <workItem from="1546173203004" duration="15595000" />
+      <workItem from="1546194241284" duration="21234000" />
+      <workItem from="1546245671478" duration="4592000" />
+      <workItem from="1546383455823" duration="99000" />
+      <workItem from="1546446353484" duration="2894000" />
+      <workItem from="1546450202871" duration="193000" />
+      <workItem from="1546450424812" duration="630000" />
+      <workItem from="1546451089759" duration="574000" />
+      <workItem from="1546514514601" duration="3564000" />
+      <workItem from="1546621230130" duration="10942000" />
+      <workItem from="1546690705381" duration="5385000" />
+      <workItem from="1546696244116" duration="14583000" />
+      <workItem from="1546772496216" duration="15035000" />
+      <workItem from="1546802731936" duration="3897000" />
+      <workItem from="1546809355561" duration="6321000" />
+      <workItem from="1546862623210" duration="15950000" />
+      <workItem from="1546882209041" duration="1211000" />
+      <workItem from="1546895551140" duration="251000" />
+      <workItem from="1546898481054" duration="549000" />
+      <workItem from="1546899160123" duration="63000" />
+      <workItem from="1546899298977" duration="141000" />
+      <workItem from="1547037672261" duration="898000" />
+      <workItem from="1547040246962" duration="3500000" />
+      <workItem from="1547049520211" duration="15519000" />
+      <workItem from="1547157870563" duration="237000" />
+      <workItem from="1559820121450" duration="2102000" />
+      <workItem from="1559822405977" duration="786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="166142000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1866" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18136714" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952183" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32952183" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32952183" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3296582" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" weight="0.45148844" />
+      <window_info anchor="right" id="Maven" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2094818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952183" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32952183" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32952183" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3296582" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" weight="0.3296582" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Face_Detection_System_KR.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/FaceBioPhoto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/NamesWrapperDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles.css" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/haar/haarcascade_frontalface_alt_tree.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-772706" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="452" column="18" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="2333" column="62" lean-forward="true" selection-start-line="2333" selection-start-column="62" selection-end-line="2333" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/nio/IntBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3321">
+          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar!/org/bytedeco/javacv/FrameGrabber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="565" column="25" selection-start-line="565" selection-start-column="25" selection-end-line="565" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3.jar!/org/bytedeco/javacpp/opencv_core.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="2595" column="54" selection-start-line="2595" selection-start-column="54" selection-end-line="2595" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar!/org/bytedeco/javacv/Frame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar!/org/bytedeco/javacv/OpenCVFrameConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="268" column="21" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3.jar!/org/bytedeco/javacpp/helper/opencv_objdetect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar!/org/bytedeco/javacv/OpenCVFrameGrabber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.4.3/javacpp-1.4.3.jar!/org/bytedeco/javacpp/Loader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3.jar!/org/bytedeco/javacpp/helper/opencv_core.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="2224" column="36" selection-start-line="2224" selection-start-column="36" selection-end-line="2224" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/Sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="168" column="27" lean-forward="true" selection-start-line="168" selection-start-column="27" selection-end-line="168" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faces/0-test-face_1.png" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3.jar!/org/bytedeco/javacpp/opencv_face.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="847" column="24" selection-start-line="847" selection-start-column="24" selection-end-line="847" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="1770" selection-start-line="1770" selection-end-line="1770" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/event/CompositeEventDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/http/client/SimpleBufferingClientHttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE-sources.jar!/org/springframework/http/client/SimpleBufferingClientHttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/TestForLBPHAlgorytm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/SampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/FaceBio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/application.plantuml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.fxbuild">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_bio.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/LoaderAndTrainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/FaceDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="46" column="81" lean-forward="true" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Face_Recognition_System_KR (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31264368" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

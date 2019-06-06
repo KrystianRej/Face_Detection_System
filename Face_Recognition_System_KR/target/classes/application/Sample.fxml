@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="720.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="application.SampleController">
+    <center>
+        <TitledPane alignment="CENTER" collapsible="false" ellipsisString="" lineSpacing="1.0" maxHeight="-Infinity"
+                    maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="712.0"
+                    stylesheets="@application.css" text="Face Detection System" textAlignment="CENTER"
+                    textFill="#e44646" textOverrun="LEADING_WORD_ELLIPSIS" wrapText="true"
+                    BorderPane.alignment="CENTER">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="485.0" prefWidth="749.0" styleClass="background"
+                            stylesheets="@application.css">
+                    <children>
+                        <ImageView fx:id="imageView" fitHeight="417.0" fitWidth="607.0" layoutX="72.0" layoutY="-1.0"
+                                   pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="31.0">
+                            <viewport>
+                                <Rectangle2D width="700.0"/>
+                            </viewport>
+                        </ImageView>
+                        <Button fx:id="startCameraButton" alignment="TOP_CENTER" layoutY="426.0" mnemonicParsing="false"
+                                onAction="#startCamera" prefHeight="60.0" prefWidth="115.0" styleClass="start"
+                                stylesheets="@application.css" text="START">
+                            <font>
+                                <Font name="System Bold" size="22.0"/>
+                            </font>
+                        </Button>
+                        <Button fx:id="saveButton" alignment="TOP_CENTER" disable="true" layoutX="255.0" layoutY="425.0"
+                                minHeight="54.0" minWidth="87.0" mnemonicParsing="false" onAction="#saveFace"
+                                prefHeight="62.0" prefWidth="96.0" styleClass="save" stylesheets="@application.css"
+                                text="SAVE" textAlignment="CENTER">
+                            <font>
+                                <Font name="System Bold" size="22.0"/>
+                            </font>
+                        </Button>
+                        <Button fx:id="recogniseFaceButton" alignment="CENTER" disable="true" layoutX="355.0"
+                                layoutY="425.0" mnemonicParsing="false" onAction="#faceRecognise" prefHeight="60.0"
+                                prefWidth="167.0" styleClass="recognition" stylesheets="@application.css"
+                                textFill="#fcfcfc">
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                        </Button>
+                        <Button fx:id="stopButton" alignment="TOP_CENTER" layoutX="7.0" layoutY="426.0"
+                                mnemonicParsing="false" onAction="#stopCam" prefHeight="55.0" prefWidth="101.0"
+                                styleClass="stop1" stylesheets="@application.css" text="STOP" visible="false">
+                            <font>
+                                <Font name="System Bold" size="22.0"/>
+                            </font>
+                        </Button>
+                        <Separator layoutX="255.0" layoutY="419.0" prefHeight="4.0" prefWidth="226.0"/>
+                        <Label fx:id="informationAboutSavingLabel" alignment="CENTER" layoutX="153.0" layoutY="207.0"
+                               prefHeight="52.0" prefWidth="421.0" text="Face has been saved" textFill="#d5ff1a"
+                               underline="true" visible="false">
+                            <font>
+                                <Font size="27.0"/>
+                            </font>
+                        </Label>
+                        <Label fx:id="missingDataError" alignment="CENTER" layoutX="153.0" layoutY="365.0"
+                               prefHeight="52.0" prefWidth="436.0"
+                               style="-fx-background-color: #e53b24; -fx-background-radius: 14px;"
+                               text="No face detected or user's personal data is empty!" textFill="WHITE"
+                               underline="true" visible="false">
+                            <font>
+                                <Font name="Estrangelo Edessa" size="19.0"/>
+                            </font>
+                        </Label>
+                        <Button fx:id="stopRecognitionButton" alignment="CENTER" disable="true" layoutX="534.0"
+                                layoutY="421.0" mnemonicParsing="false" onAction="#stopRecognise" prefHeight="60.0"
+                                prefWidth="176.0" styleClass="stop2" stylesheets="@application.css"
+                                text="STOP RECOGNITION">
+                            <font>
+                                <Font name="System Bold" size="15.0"/>
+                            </font>
+                        </Button>
+                        <Label fx:id="badFacesNumber" alignment="CENTER" layoutX="150.0" layoutY="313.0"
+                               prefHeight="52.0" prefWidth="436.0"
+                               style="-fx-background-color: #e53b24; -fx-background-radius: 14px;"
+                               text="You can save photo with only one face on it!" textFill="WHITE" underline="true"
+                               visible="false">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                        </Label>
+                    </children>
+
+                </AnchorPane>
+            </content>
+            <font>
+                <Font name="DFGothic-EB" size="25.0"/>
+            </font>
+            <effect>
+                <InnerShadow/>
+            </effect>
+        </TitledPane>
+    </center>
+    <left>
+        <TitledPane fx:id="dataPane" disable="true" prefHeight="528.0" prefWidth="302.0" styleClass="background"
+                    stylesheets="@application.css" text="Data " BorderPane.alignment="CENTER">
+            <content>
+                <SplitPane orientation="VERTICAL" prefHeight="276.0" prefWidth="300.0">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                            <children>
+                                <ListView fx:id="dataOutputList" editable="true" layoutX="4.0" layoutY="4.0"
+                                          prefHeight="493.0" prefWidth="290.0" style="-fx-padding: 10;"
+                                          styleClass="background" stylesheets="@application.css">
+                                    <effect>
+                                        <Glow/>
+                                    </effect>
+                                </ListView>
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+            </content>
+        </TitledPane>
+    </left>
+    <right>
+        <TitledPane animated="false" prefHeight="542.0" prefWidth="340.0" styleClass="background"
+                    stylesheets="@application.css" text="Output" BorderPane.alignment="CENTER">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="460.0" prefWidth="313.0" styleClass="background"
+                            stylesheets="@application.css">
+                    <children>
+                        <SplitPane dividerPositions="0.5" layoutX="2.0" layoutY="-1.0" orientation="VERTICAL"
+                                   prefHeight="496.0" prefWidth="337.0">
+                            <items>
+                                <AnchorPane centerShape="false" minHeight="0.0" minWidth="0.0" prefHeight="501.0"
+                                            prefWidth="323.0" styleClass="background" stylesheets="@application.css">
+                                    <children>
+                                        <Label layoutX="102.0" layoutY="2.0" text="EVENT LOG:" textFill="WHITE">
+                                            <font>
+                                                <Font name="DFGothic-EB" size="24.0"/>
+                                            </font>
+                                        </Label>
+                                        <Separator layoutX="77.0" layoutY="37.0" prefHeight="5.0" prefWidth="123.0"/>
+                                        <ListView fx:id="listWithLogs" editable="true" layoutX="4.0" layoutY="27.0"
+                                                  prefHeight="224.0" prefWidth="322.0" style="-fx-padding: 10;"
+                                                  styleClass="background" stylesheets="@application.css">
+                                            <effect>
+                                                <Glow/>
+                                            </effect>
+                                        </ListView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane fx:id="personalDataPanel" minHeight="0.0" minWidth="0.0" prefHeight="244.0"
+                                            prefWidth="310.0" styleClass="background" stylesheets="@application.css">
+                                    <children>
+                                        <Label fx:id="title" layoutX="52.0" layoutY="-6.0" prefHeight="45.0"
+                                               prefWidth="213.0" text="Personal data:" textFill="WHITE">
+                                            <font>
+                                                <Font name="DFGothic-EB" size="30.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="34.0" layoutY="76.0" text="FName:" textFill="WHITE">
+                                            <font>
+                                                <Font name="DFGothic-EB" size="20.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="firstName" layoutX="98.0" layoutY="73.0" prefHeight="25.0"
+                                                   prefWidth="181.0" promptText="Enter First Name"/>
+                                        <TextField fx:id="code" layoutX="97.0" layoutY="40.0" prefHeight="25.0"
+                                                   prefWidth="181.0" promptText="Unique Face code"/>
+                                        <Label layoutX="47.0" layoutY="43.0" text="Code:" textFill="WHITE">
+                                            <font>
+                                                <Font name="DFGothic-EB" size="20.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="34.0" layoutY="108.0" text="LName:" textFill="WHITE">
+                                            <font>
+                                                <Font name="DFGothic-EB" size="20.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="lastName" layoutX="97.0" layoutY="105.0" prefHeight="25.0"
+                                                   prefWidth="181.0" promptText="Enter Last name"/>
+                                        <Separator layoutX="34.0" layoutY="33.0" prefHeight="6.0" prefWidth="239.0"/>
+                                        <TextField fx:id="age" layoutX="97.0" layoutY="136.0" prefHeight="25.0"
+                                                   prefWidth="181.0" promptText="Enter Age"/>
+                                        <Label layoutX="52.0" layoutY="137.0" prefHeight="24.0" prefWidth="40.0"
+                                               text="Age:" textFill="WHITE">
+                                            <font>
+                                                <Font name="DFGothic-EB" size="20.0"/>
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                            </items>
+                        </SplitPane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+    </right>
+    <bottom>
+        <Pane prefHeight="195.0" prefWidth="1354.0" BorderPane.alignment="CENTER">
+            <children>
+                <TitledPane animated="false" layoutY="-4.0" prefHeight="210.0" prefWidth="1354.0"
+                            styleClass="scrollsbackground" stylesheets="@application.css" text="Faces from database:">
+                    <content>
+                        <ScrollPane prefViewportHeight="180.0" prefViewportWidth="1348.0"
+                                    stylesheets="@application.css">
+                            <content>
+                                <TilePane fx:id="tilePane" hgap="30.0" prefHeight="181.0" prefWidth="1438.0"
+                                          styleClass="background" stylesheets="@application.css" vgap="30.0">
+                                    <padding>
+                                        <Insets bottom="50.0"/>
+                                    </padding>
+                                </TilePane>
+                            </content>
+                        </ScrollPane>
+                    </content>
+                </TitledPane>
+            </children>
+        </Pane>
+    </bottom>
+</BorderPane>

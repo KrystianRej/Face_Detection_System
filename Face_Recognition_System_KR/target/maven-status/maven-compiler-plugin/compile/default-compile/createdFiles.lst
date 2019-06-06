@@ -1,0 +1,4 @@
+application\Main.class
+application\FaceDetector.class
+application\CoreConfiguration.class
+application\SampleController.class

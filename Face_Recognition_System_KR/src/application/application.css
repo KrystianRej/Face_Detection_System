@@ -1,0 +1,117 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.background {
+    -fx-background-color: #3E4646;
+}
+
+.start {
+
+    -fx-min-height: 60px;
+
+    -fx-min-width: 90px;
+
+    /*-fx-background-bufferedImage: url("../onon.png");*/
+    -fx-background-color: #38CE0A;
+
+    -fx-background-size: 50px 50px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center 7px;
+}
+
+.capture {
+
+    -fx-min-height: 45px;
+
+    -fx-min-width: 90px;
+
+    -fx-background-size: 40px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center 7px;
+}
+
+#savef {
+
+    -fx-min-height: 60px;
+
+    -fx-min-width: 90px;
+
+    -fx-background-size: 50px 50px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center 7px;
+}
+
+.stop2 {
+
+    -fx-min-height: 60px;
+
+    -fx-min-width: 90px;
+
+    -fx-background-color: #FE0109;
+
+    -fx-background-size: 50px 50px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center 7px;
+}
+
+.stop1 {
+
+    -fx-min-height: 60px;
+
+    -fx-min-width: 90px;
+
+    -fx-background-color: #FE0109;
+
+    -fx-background-size: 50px 50px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center 7px;
+}
+
+.recognition {
+
+    -fx-min-height: 60px;
+
+    -fx-min-width: 90px;
+
+    -fx-background-color: #2908FE;
+
+    -fx-background-size: 50px 50px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center 7px;
+}
+
+.save {
+
+    -fx-min-height: 60px;
+
+    -fx-min-width: 90px;
+
+    -fx-background-color: #FEFE08;
+
+    -fx-background-size: 50px 50px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center 7px;
+}
+
+
+
+
+
+
+
+
+
+
