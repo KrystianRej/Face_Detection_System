@@ -84,3 +84,10 @@ Face_Recognition_System_KR/target/generated-sources/
 Human_Identification_System_Database/src/main/resources/static/
 Human_Identification_System_Database/src/main/resources/templates/
 Human_Identification_System_Database/src/test/resources/
+identification.plantuml
+src/main/java/application/application.plantuml
+src/main/resources/static/
+src/main/resources/templates/
+src/test/java/application/application.plantuml
+src/test/resources/
+/Face_Recognition_System_KR/.idea/
