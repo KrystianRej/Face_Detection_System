@@ -5,7 +5,7 @@
 * MySQL
 * Maven
 * Gradle
-# 
+
 
 #Info
 Face_Recognition_System_KR - Main application with detection and recognition system and JavaFX view
